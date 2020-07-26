@@ -21,7 +21,7 @@
         <p>
             Generate a secure password that meets flexible criteria.
         </p>
-        <button id="startbtn" onclick="start()">Start here</button>
+        <button id="startbtn" onclick="start();">Start here</button>
         <div id="pwCriteria">
         <p>
             Customize password criteria:
@@ -48,6 +48,10 @@
             <input type="checkbox" id="special" name="special"
                    checked>
             <label for="special">Include Special Characters</label>
+
+            <button id="genbtn" onclick="generatePassword();">Generate!</button>
+
+            <p id="showpw"></p>
         </div>
     </div>
 </body>
