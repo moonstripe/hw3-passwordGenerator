@@ -19,36 +19,48 @@
         </p>
 
     </div>
-    <div class="pwGen">
-        <p>
-            Generate a secure password that meets flexible criteria.
-        </p>
-        <input type="number" id="length-of-pass" name="length-of-pass" placeholder="enter password length (8~128)">
-        <div id="pwCriteria">
-            <ul>
-                <li>
-                    <input type="checkbox" id="uppercase" name="uppercase" checked>
-                    <label for="uppercase">Include Uppercase</label>
-                </li>
-                <li>
-                    <input type="checkbox" id="lowercase" name="lowercase" checked>
-                    <label for="lowercase">Include Lowercase</label>
-                </li>
-                <li>
-                    <input type="checkbox" id="numeric" name="numeric" checked>
-                    <label for="numeric">Include Numeric</label>
-                </li>
-                <li>
-                    <input type="checkbox" id="special" name="special" checked>
-                    <label for="special">Include Special Characters</label>
-                </li>
-            </ul>
 
+    <div class="container">
+        <div class="row">
+            <div class="col-3"></div>
+            <div class="col-6">
 
-            <button id="genbtn" ;>Generate!</button>
-            <p id="showpw">Your password: </p>
+                <div class="pwGen">
+                    <p>
+                        Generate a secure password that meets flexible criteria.
+                    </p>
+                    <input type="number" id="length-of-pass" name="length-of-pass" placeholder="enter password length (8~128)">
+                    <div id="pwCriteria">
+                        <ul>
+                            <li>
+                                <input type="checkbox" id="uppercase" name="uppercase" checked>
+                                <label for="uppercase">Include Uppercase</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="lowercase" name="lowercase" checked>
+                                <label for="lowercase">Include Lowercase</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="numeric" name="numeric" checked>
+                                <label for="numeric">Include Numeric</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="special" name="special" checked>
+                                <label for="special">Include Special Characters</label>
+                            </li>
+                        </ul>
+            
+            
+                        <button id="genbtn" ;>Generate!</button>
+                        <p id="showpw">Your password: </p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-3"></div>
         </div>
     </div>
+
     <script src="javascript.js"></script>
 </body>
 
