@@ -1,4 +1,4 @@
-# Personal Portfolio
+# Password Generator
 > This site asks for a length input and character criteria to generate a pseudo-random password for use on user accounts.
 
 ![](./Assets/passwordGenerator.png)
