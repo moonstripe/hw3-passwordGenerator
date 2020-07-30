@@ -1,20 +1,38 @@
 body {
     background-color: lightgray;
+    text-align: center;
 }
 
 .pwGen {
     background-color: #fff;
+    border-radius: 5px;
+    padding: 20px 20px;
+    
 }
 
-.pwGen p {
-    padding: 20px 20px;
+.pwGen p input {
+    padding: 20px 20px 20px 20px;
+    margin-top: 20px;
+}
+
+.pwGen ul {
+    width: 70%;
+    margin: auto;
+}
+
+.pwGen li {
+    list-style-type: none;
+    text-align: left;
 }
 
 .pwGen button {
-    margin: 20px 20px;
+
+    display: inline-block;
+    border-radius: 5px;
+    margin-bottom: 20px;
+
 }
 
-#pwCriteria {
+/* #pwCriteria {
     display: none;
-    padding: 20px 20px;
-}
+} */
